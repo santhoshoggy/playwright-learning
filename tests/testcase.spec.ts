@@ -30,7 +30,7 @@ test('TC-04 Verify message displays workspace label', async ({ switch_person, sw
     await switch_person.switch_client("client_device");
     await sent_text.long_text("long-text");
     await copytext.copytext("");
-    await timestamp.timestamp("timestamp"); //timestamp visible
+    await timestamp.timestamp("timestamp"); //timestamp visible here ..
 });
 
 test('05 clear-after sending', async ({ sent_text, input_empty }) => {
