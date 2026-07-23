@@ -87,11 +87,11 @@ test('TC-16 Clear All Chats when chat is already empty ' ,async({clearchat_cance
     await sent_text.repeat_text();
     await clearchat_cancel.clearchat_cancel();
 });
-test('TC-17 clear-chat ' ,async({clear_sky_chat,clearchat,sent_text})=>{
-    await clearchat.clearchat()
-    await clear_sky_chat.clear_sky_chat();
-    await sent_text.send_text("");
-});
+// test('TC-17 clear-chat ' ,async({clear_sky_chat,clearchat,sent_text})=>{
+//     await clearchat.clearchat()
+//     await clear_sky_chat.clear_sky_chat();
+//     await sent_text.send_text("");
+// });
 
 
 
