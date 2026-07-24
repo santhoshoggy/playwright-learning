@@ -20,6 +20,15 @@ export class fileupload {
     }
 
 
+    // readonly active_status: Locator
+    //     readonly clear_chat: Locator
+    //     readonly lightmode: Locator
+    //     readonly darkmode: Locator
+    //     readonly footer_locat : Locator
+    //     private readonly page : Page
+    //     Message : Message
+
+
     async upload_file(filename: string) {
         await this.file_upload_btn.setInputFiles(this.file_path);
         await this.send_btnclick("send_btn");

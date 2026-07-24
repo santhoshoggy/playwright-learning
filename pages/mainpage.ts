@@ -12,6 +12,13 @@ export class mainpage {
     readonly footer_locat : Locator
     private readonly page : Page
     Message : Message
+    // readonly active_status: Locator
+    // readonly clear_chat: Locator
+    // readonly lightmode: Locator
+    // readonly darkmode: Locator
+    // readonly footer_locat : Locator
+    // private readonly page : Page
+    // Message : Message
 
     constructor( private Page: Page) {
         this.page = Page;
