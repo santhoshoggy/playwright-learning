@@ -19,6 +19,14 @@ export class fileupload {
         this.refersh_btn = this.page.getByRole('button', {name:'Refresh Chat'});
     }
 
+    // readonly active_status: Locator
+    //     readonly clear_chat: Locator
+    //     readonly lightmode: Locator
+    //     readonly darkmode: Locator
+    //     readonly footer_locat : Locator
+    //     private readonly page : Page
+    //     Message : Message
+
 
     // readonly active_status: Locator
     //     readonly clear_chat: Locator
