@@ -21,7 +21,7 @@ export class mainpage {
         this.active_status = Page.locator('.status-dot')
         this.clear_chat = this.page.getByRole('button',{name:'Clear All Chats'});   
         this.lightmode = this.page.getByRole('button',{name:'Light Mode'})
-        this.darkmode = this.page.getByRole('button',{name:'Light Mode'})
+        this.darkmode = this.page.getByRole('button',{name:'dark Mode'})
         this.footer_locat = this.page.locator('//*[@id="root"]/div/div/aside/footer/div/span')
     }
 
