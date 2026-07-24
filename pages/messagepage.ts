@@ -38,6 +38,7 @@ export class Message {
         await this.client_device.click();
         await expect(this.page.getByRole('button', { name:'Client Laptop' })).toBeVisible()
         // await this.page.waitForTimeout(3000);
+        ///jcbsdjddhcbdshjcb
     }
     async send_text(text_input: string) {
         await this.text_input.pressSequentially(testdata.message.mseeage1);

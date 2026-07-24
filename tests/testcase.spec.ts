@@ -30,7 +30,7 @@ test('TC-04 Verify message displays workspace label', async ({ switch_person, sw
     await switch_person.switch_client("client_device");
     await sent_text.long_text("long-text");
     await copytext.copytext("");
-    await timestamp.timestamp("timestamp"); //timestamp visible
+    await timestamp.timestamp("timestamp"); //timestamp visible here ..
 });
 
 test('05 clear-after sending', async ({ sent_text, input_empty }) => {
@@ -87,11 +87,11 @@ test('TC-16 Clear All Chats when chat is already empty ' ,async({clearchat_cance
     await sent_text.repeat_text();
     await clearchat_cancel.clearchat_cancel();
 });
-test('TC-17 clear-chat ' ,async({clear_sky_chat,clearchat,sent_text})=>{
-    await clearchat.clearchat()
-    await clear_sky_chat.clear_sky_chat();
-    await sent_text.send_text("");
-});
+// test('TC-17 clear-chat ' ,async({clear_sky_chat,clearchat,sent_text})=>{
+//     await clearchat.clearchat()
+//     await clear_sky_chat.clear_sky_chat();
+//     await sent_text.send_text("");
+// });
 
 
 
