@@ -49,8 +49,8 @@ test('TC-06 file upload', async ({ fileupload, refersh, clearchat }) => {
 });
 
 test('TC-07 swit-modes', async ({ lightmode, darkmode }) => {
-    await lightmode.light_mode("light mode");
-    await darkmode.dark_mode("dark mode");
+    await lightmode.light_mode("light mode"); //change into light ...
+    await darkmode.dark_mode("dark mode"); // change into darkmode ..
 });
 test('TC-08 Verify sidebar sections are visible', async ({ sidebarvirify }) => {
     await sidebarvirify.verifySidebar();
