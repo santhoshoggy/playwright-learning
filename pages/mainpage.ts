@@ -26,7 +26,7 @@ export class mainpage {
     }
 
     async baseurl() {
-        await this.page.goto(testdata.BASE_URL);
+        await this.page.goto('/');
     }
     async active_status_check(active_status: string) {
         await this.active_status.getByText("Live Link Active");
